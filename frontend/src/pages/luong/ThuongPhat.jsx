@@ -3,12 +3,11 @@ import axiosClient from '../../api/axiosClient';
 import Table from '../../components/common/Table';
 import Modal from '../../components/common/Modal';
 import toast from 'react-hot-toast';
-import { PlusIcon, BanknotesIcon } from '@heroicons/react/24/outline';
+import { PlusIcon, BanknotesIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import PageHeader from '../../components/common/PageHeader';
 import SkeletonTable from '../../components/common/SkeletonTable';
 import EmptyState from '../../components/common/EmptyState';
 import { format } from 'date-fns';
-import { BanknotesIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import SearchInput from '../../components/common/SearchInput';
 import FilterSelect from '../../components/common/FilterSelect';
 
